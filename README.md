@@ -8,18 +8,26 @@ Using Docker to build and test a web application
 ## Description
 
 Building our Sinatra application
-Create directory for web application testing
-create Dockerfile for our Sinatra container
-Build our new Sinatra image
+    Create directory for web application testing
+    create Dockerfile for our Sinatra container
+    Build our new Sinatra image
 Create our Sinatra container
-Download our Sinatra web application
-Make the webapp/bin/webapp binary executable
-Launch our first Sinatra container
-Check the logs of our Sinatra container
-Tail the logs of our Sinatra container
-Use docker top to list our Sinatra processes
-Check the Sinatra port mapping
-Test our Sinatra application
+    Download our Sinatra web application
+    Make the webapp/bin/webapp binary executable
+    Launch our first Sinatra container
+    Check the logs of our Sinatra container
+    Tail the logs of our Sinatra container
+    Use docker top to list our Sinatra processes
+    Check the Sinatra port mapping
+    Test our Sinatra application
+
+Extending our Sinatra application to use Redis
+    Updating our Sinatra application
+    Make the webapp_redis/bin/webapp binary executable
+    Build a Redis database image
+        Create directory for Redis container
+        Create Dockerfile for Redis image
+    Connecting our Sinatra application to the Redis container
 
 ### Dependencies
 
