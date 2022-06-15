@@ -53,6 +53,11 @@ Extending our Sinatra application to use Redis
         Checking the Sinatra container’s port mapping
         Testing our Redis-enabled Sinatra application
         Confirming Redis contains data
+        Connecting existing containers to the network
+            Running the db2 container
+            Adding a new container to the app network
+            The app network after adding db2
+            Disconnecting a host from a network
     
 
 ### Dependencies
