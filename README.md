@@ -28,6 +28,32 @@ Extending our Sinatra application to use Redis
         Create directory for Redis container
         Create Dockerfile for Redis image
     Connecting our Sinatra application to the Redis container
+    Docker internal networking - some of this is no longer true
+        The docker0 interface
+        The veth interfaces
+        The eth0 interface in a container
+        Tracing a route out of our container
+        Docker iptables and NAT
+        Redis container’s networking configuration
+        Finding the Redis container’s IP address
+        Talking directly to the Redis container
+        Restarting our Redis container
+    Docker networking
+        Creating a Docker network
+        Inspecting the app network
+        The docker network ls command
+        Creating a Redis container inside our Docker network
+        The updated app network
+        Linking our Redis container
+        Installing nslookup
+        DNS resolution in the network_test container
+        Pinging db.app in the network_test container
+        The Redis DB hostname in code
+        Starting the Redis-enabled Sinatra application
+        Checking the Sinatra container’s port mapping
+        Testing our Redis-enabled Sinatra application
+        Confirming Redis contains data
+    
 
 ### Dependencies
 
